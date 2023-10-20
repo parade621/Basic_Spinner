@@ -30,13 +30,13 @@
         android:id="@+id/my_spinner"
         style="@style/Widget.AppCompat.Spinner"
         android:layout_width="100dp"
+        android:minWidth="80dp"
         android:layout_height="match_parent"
         android:layout_weight="1"
         android:background="@drawable/border_round_5_e5e5e5_arrow"
         android:dropDownWidth="match_parent"
         android:dropDownVerticalOffset="35dp"
-        android:popupBackground="@android:color/white"
-        android:stateListAnimator="@drawable/spinner_sla" />
+        android:popupBackground="@android:color/white" />
     </androidx.appcompat.widget.LinearLayoutCompat>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
